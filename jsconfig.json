@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
     "jsx": "preserve",
-    "baseUrl": "./src",
+    "baseUrl": "src",
     "paths": {
-      "@/components/*": ["./components/*"],
-      "@/constants/*": ["./constants/*"]
-      /* "@/icons/*": ["./icons/*"] //add necessary folders here for absolute path
+      "components/*": ["components/*"],
+      "constants/*": ["constants/*"],
+      /*
+        "icons/*": ["icons/*"] // <---  add necessary folders here for absolute path
        */
     }
   }
