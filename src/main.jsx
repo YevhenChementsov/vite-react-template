@@ -1,8 +1,8 @@
 import React from 'react';
 
-import App from '@/components/App/App';
-import { GlobalStyle } from '@/constants/GlobalStyle';
-import { theme } from '@/constants/theme';
+import App from 'components/App/App';
+import { GlobalStyle } from 'constants/GlobalStyle';
+import { theme } from 'constants/theme';
 import ReactDOM from 'react-dom/client';
 import { ThemeProvider } from 'styled-components';
 
