@@ -7,10 +7,12 @@ export default defineConfig({
   plugins: [react(), svgr()],
   resolve: {
     alias: {
-      components: '/src/components',
-      constants: '/src/constants',
+      assets: ['/src/assets'],
+      components: ['/src/components'],
+      constants: ['/src/constants'],
+      services: ['/src/services'],
       /*
-        icons: '/src/icons', // <---  add necessary folders here for absolute path
+        icons: ['/src/icons'], // <---  add necessary folders here for absolute path
        */
     }
   },

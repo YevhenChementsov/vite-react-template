@@ -3,8 +3,10 @@
     "jsx": "preserve",
     "baseUrl": "src",
     "paths": {
+      "assets/*": ["assets/*"],
       "components/*": ["components/*"],
       "constants/*": ["constants/*"],
+      "services/*": ["services/*"]
       /*
         "icons/*": ["icons/*"] // <---  add necessary folders here for absolute path
        */
